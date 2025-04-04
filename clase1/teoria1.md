@@ -18,6 +18,13 @@ En resumen el aporte es
 - Objetos -> transferencia de control (_ejecuta esto pero dependiendo de la clase_) permite definir cierto protocolo y la ejecucción dependerá de la clase que se esta invocando
 - Funcional -> manejo de la asignación de variables (cosas inmutables) para poder escalar los componentes. 
 
+Resumiendo: 
+¿Cómo combinarlas en una arquitectura? 
+- Usar estructuras de control claras.
+- Delegar el control con IoC y polimorfismo en POO. 
+- Usar funciones puras e inmutabilidad para cálculos y transformaciones. 
+Como objetivo tener sistemas más escalables y mantenibles. 
+
 Al pensar en arquitectura es escencial pensar en el diseño basado en los requerimientos funcionales y no funcionales. Respecto a los últimos se tienen en cuenta: 
 - Performance
 - Seguridad
